@@ -195,7 +195,6 @@ void Encryption::rotate_down(Cube& cube, size_t count)
     }
 }
 
-
 void Encryption::remove_additional_symbol()
 {
     size_t found = _unhash.find('$');
